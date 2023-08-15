@@ -3,7 +3,7 @@ pkgname='nebula'
 pkgver=1.7.2
 pkgrel=1
 pkgdesc='A scalable overlay networking tool with focus on performance, simplicity and security'
-arch=('x86_64')
+arch=('x86_64' 'aarch64')
 url='https://github.com/slackhq/nebula'
 license=('MIT')
 depends=()
@@ -12,7 +12,7 @@ options=('!lto')
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz")
 sha256sums=('c4771ce6eb3e142f88f5f4c12443cfca140bf96b2746c74f9536bd1a362f3f88')
 # Generate new checksums after altering PKGBUILD
-# cd into folder of PKGBUILD and execute 'make -gfp PKGBUILD
+# cd into folder of PKGBUILD and execute 'makepkg -gfp PKGBUILD'
 # copy new checksum into PKGBUILD
 
 build() {
