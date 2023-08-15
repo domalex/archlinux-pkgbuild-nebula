@@ -1,4 +1,3 @@
 nebula-*.tar.*
-LICENSE
-pkg
-src
+/pkg/
+/src/
