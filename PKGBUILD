@@ -1,4 +1,5 @@
-# Maintainer: Dominik Schmid <niggi@cyberdude.com>
+# Maintainer: Dominik Schmid <niggi @ cyberdude.com>
+# Contributer: Robin Broda <coderobe @ archlinux.org>
 pkgname='nebula'
 pkgver=1.7.2
 pkgrel=1
@@ -9,7 +10,7 @@ license=('MIT')
 depends=()
 makedepends=('go')
 options=('!lto')
-source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz")
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('c4771ce6eb3e142f88f5f4c12443cfca140bf96b2746c74f9536bd1a362f3f88')
 # Generate new checksums after altering PKGBUILD
 # cd into folder of PKGBUILD and execute 'makepkg -gfp PKGBUILD'
