@@ -32,8 +32,8 @@ build() {
   done
 }
 
-# Quick fix: Deactivate check function for aarch64 architecutres
-# by prefixing the corresponding lines with #
+# Quick fix for aarch64 architecutres:
+# Deactivate check function by prefixing the corresponding lines with #
 check() {
   cd "${pkgname}-${pkgver}"
 
